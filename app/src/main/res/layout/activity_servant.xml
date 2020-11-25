@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vaspe.umu.ServantActivity"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tap"
+        android:textSize="36sp"
+        android:scaleType="fitStart"
+        android:text="@string/umu_string"
+        android:layout_above="@+id/count"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/count"
+        android:textSize="36sp"
+        android:scaleType="fitStart"
+        android:layout_above="@+id/servant"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/servant"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:src="@drawable/nerochibi"
+        android:contentDescription="@string/bottom_sheet_behavior" />
+
+
+</RelativeLayout>
